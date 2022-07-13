@@ -33,7 +33,7 @@ class App extends Component {
       <>
         <div className="container">
           <div className="tc">
-            <h1>Robot Test</h1>
+            <h1 className="text-white">Robot Test</h1>
             <SearchBox searchChange={this.onSearchChange} />
             <Scroll>
               <CardList robots={filterRobots} />
